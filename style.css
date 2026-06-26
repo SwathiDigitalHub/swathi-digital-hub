@@ -1,31 +1,92 @@
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ffffff, #f3e8ff);
-    margin: 0;
-    padding: 0;
-    text-align: center;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-h1 {
-    color: #6a0dad;
-    margin-top: 60px;
+body{
+background:#f8f5ff;
+color:#333;
 }
 
-p {
-    font-size: 20px;
-    color: #333;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#6a0dad;
+color:white;
 }
 
-button {
-    background: #7c3aed;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    cursor: pointer;
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
 }
 
-button:hover {
-    background: #5b21b6;
-  }
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(135deg,#6a0dad,#9b59b6);
+color:white;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+button{
+background:white;
+color:#6a0dad;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#eee;
+}
+
+.about,.services{
+padding:70px 10%;
+text-align:center;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+width:300px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+footer{
+background:#6a0dad;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
