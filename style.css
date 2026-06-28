@@ -144,3 +144,33 @@ transition:.3s;
 background:#ffd700;
 color:black;
   }
+
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+padding:15px;
+}
+
+.logo h2{
+font-size:22px;
+margin-bottom:15px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-bottom:15px;
+}
+
+.btn-nav{
+width:100%;
+text-align:center;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+}
